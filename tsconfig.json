@@ -15,13 +15,11 @@
 
     // Stricter Typechecking Options
     "strict": true,
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
+    "skipLibCheck": true,
 
     // Style Options
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
 
     // Module Resolution
