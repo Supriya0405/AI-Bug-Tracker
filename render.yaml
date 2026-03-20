@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: ai-bug-tracker-api
+    env: node
+    plan: free
+    repo: https://github.com/Supriya0405/AI-Bug-.git
+    rootDir: server
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/logs
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+    autoDeploy: true

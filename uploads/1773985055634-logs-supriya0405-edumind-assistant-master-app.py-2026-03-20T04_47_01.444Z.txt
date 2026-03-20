@@ -1,0 +1,1871 @@
+
+[     UTC     ] Logs for supriya0405-edumind-assistant-app-nu2avk.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[04:35:59] 🚀 Starting up repository: 'edumind-assistant', branch: 'master', main module: 'app.py'
+[04:35:59] 🐙 Cloning repository...
+[04:35:59] 🐙 Cloning into '/mount/src/edumind-assistant'...
+
+[04:35:59] 🐙 Cloned repository!
+[04:35:59] 🐙 Pulling code changes from Github...
+[04:36:00] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.14.3 environment at /home/adminuser/venv
+Resolved 57 packages in 732ms
+Prepared 57 packages in 2.67s
+Installed 57 packages in 92ms
+ + altair==6.0.0
+ + attrs==26.1.0
+ + blinker==1.9.0
+ + cachetools==7.0.5
+ + certifi==2026.2.25
+ + charset-normalizer==3.4.6
+ + click==8.3.1
+ + contourpy==1.3.3
+ + cycler==0.12.1
+ + et-xmlfile==2.0.0
+ + fonttools==4.62.1
+ + gitdb==4.0.12
+ + gitpython==3.1.46
+ + idna==3.11
+ + importlib-metadata==8.8.0
+ + jinja2==3.1.6
+ + joblib==1.5.3
+ +[2026-03-20 04:36:03.998038]  jsonschema==4.26.0
+ + jsonschema-specifications==2025.9.1
+ + kiwisolver==1.5.0
+ + markdown-it-py==4.0.0
+ + markupsafe==3.0.3
+ + matplotlib==3.10.8
+ + mdurl==0.1.2
+ + narwhals==2.18.0
+ + numpy==2.4.3
+ + openpyxl[2026-03-20 04:36:03.998318] ==3.1.5
+ + packaging==26.0
+ + pandas==3.0.1
+ + pillow==12.1.1
+ + protobuf==3.20.3
+ + pyarrow==23.0.1
+ + pydeck==0.9.1
+ + pygments==2.19.2
+ + pympler==1.1[2026-03-20 04:36:03.998485] 
+ + pyparsing==3.3.2
+ + python-dateutil==2.9.0.post0
+ + referencing==0.37.0
+ + requests==2.32.5
+ + rich==14.3.3
+ + rpds-py==0.30.0
+ + scikit-learn==1.8.0
+ + [2026-03-20 04:36:03.998620] scipy==1.17.1
+ + seaborn==0.13.2
+ + semver==3.0.4
+ + six==1.17.0
+ + smmap==5.0.3
+ + streamlit==1.19.0
+ + threadpoolctl==3.6.0
+ + toml==0.10.2
+ +[2026-03-20 04:36:03.998746]  tornado==6.5.5
+ + typing-extensions==4.15.0
+ + tzlocal==5.3.1
+ + urllib3==2.6.3
+ + [2026-03-20 04:36:03.998926] validators==0.35.0
+ + watchdog==6.0.0
+ + zipp==3.23.0
+Checking if Streamlit is installed
+Traceback (most recent call last):
+  File "/home/adminuser/venv/bin/streamlit", line 5, in <module>
+    from streamlit.web.cli import main
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/__init__.py", line 55, in <module>
+    from streamlit.delta_generator import DeltaGenerator as _DeltaGenerator
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/delta_generator.py", line 43, in <module>
+    from streamlit.elements.arrow_altair import ArrowAltairMixin
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/elements/arrow_altair.py", line 36, in <module>
+    from altair.vegalite.v4.api import Chart
+ModuleNotFoundError: No module named 'altair.vegalite.v4'
+WARNING: Package(s) not found: streamlit-nightly
+Couldn't find Streamlit version.
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.14.3 environment at /home/adminuser/venv
+Audited 1 package in 3ms
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[04:36:10] 🐍 Python dependencies were installed from /mount/src/edumind-assistant/requirements.txt using uv.
+Check if streamlit is installed
+Streamlit is already installed
+[04:36:12] 📦 Processed dependencies!
+Traceback (most recent call last):
+  File "/home/adminuser/venv/bin/streamlit", line 5, in <module>
+    from streamlit.web.cli import main
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/__init__.py", line 55, in <module>
+    from streamlit.delta_generator import DeltaGenerator as _DeltaGenerator
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/delta_generator.py", line 43, in <module>
+    from streamlit.elements.arrow_altair import ArrowAltairMixin
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/elements/arrow_altair.py", line 36, in <module>
+    from altair.vegalite.v4.api import Chart
+ModuleNotFoundError: No module named 'altair.vegalite.v4'
+[04:37:18] 🐙 Pulling code changes from Github...
+[04:37:18] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.14.3 environment at /home/adminuser/venv
+Resolved 59 packages in 237ms
+  × Failed to download and build `pillow==10.4.0`
+  ╰─▶ Build backend failed to build wheel through `build_wheel` (exit status:
+      1)
+
+      [stdout][2026-03-20 04:37:22.644876] 
+      running bdist_wheel
+      running build
+      running build_py
+      creating build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/IptcImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/MicImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageCms.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/BufrStubImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/_util.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/McIdasImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PixarImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PdfParser.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/_binary.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageDraw2.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/IcoImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/report.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/FontFile.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImtImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/XpmImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageTransform.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageFilter.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageMode.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageMath.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/DdsImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/__main__.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PdfImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/_deprecate.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/SpiderImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageQt.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageEnhance.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/IcnsImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageFont.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/FliImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/EpsImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/FtexImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/Jpeg2KImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/XVThumbImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/XbmImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageFile.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/features.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImagePath.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/SgiImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/DcxImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/WmfImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/_tkinter_finder.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/Hdf5StubImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/BdfFontFile.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImagePalette.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PpmImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageStat.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PSDraw.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PngImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/JpegImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/QoiImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageColor.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/BmpImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PsdImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PcdImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/MpegImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PalmImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/GifImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PcxImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/WebPImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/FitsImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageDraw.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/TiffImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/SunImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/MpoImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/GdImageFile.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageOps.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageTk.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/MspImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/BlpImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PyAccess.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageSequence.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PaletteFile.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/_typing.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageGrab.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/GimpGradientFile.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageShow.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/FpxImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageMorph.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/TgaImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageWin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/GbrImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/_version.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/GribStubImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/GimpPaletteFile.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PcfFontFile.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageChops.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/TarIO.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/__init__.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/Image.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/CurImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/TiffTags.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ContainerIO.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/JpegPresets.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/WalImageFile.py ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ExifTags.py -> build/lib.linux-x86_64-cpython-314/PIL
+      running egg_info
+      writing src/pillow.egg-info/PKG-INFO
+      writing dependency_links to src/pillow.egg-info/dependency_links.txt
+      writing requirements to src/pillow.egg-info/requires.txt
+      writing top-level names to src/pillow.egg-info/top_level.txt
+      reading manifest file 'src/pillow.egg-info/SOURCES.txt'
+      reading manifest template 'MANIFEST.in'
+      adding license file 'LICENSE'
+      writing manifest file 'src/pillow.egg-info/SOURCES.txt'
+      copying src/PIL/_imaging.pyi -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/_imagingcms.pyi ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/_imagingft.pyi -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/_imagingmath.pyi ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/_imagingmorph.pyi ->
+      build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/_webp.pyi -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/py.typed -> build/lib.linux-x86_64-cpython-314/PIL
+      running build_ext
+
+      [stderr]
+      /home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/config/_apply_pyprojecttoml.py:82:
+      SetuptoolsDeprecationWarning: `project.license` as a TOML table is
+      deprecated
+      !!
+
+      
+      ********************************************************************************
+              Please use a simple string containing a SPDX expression for
+      `project.license`. You can also use `project.license-files`. (Both
+      options available on setuptools>=77.0.0).
+
+              By 2027-Feb-18, you need to update your project and remove
+      deprecated calls
+              or your builds will no longer be supported.
+
+              See
+      https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license
+      for details.
+      
+      ********************************************************************************
+
+      !!
+        corresp(dist, value, root_dir)
+      /home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/config/_apply_pyprojecttoml.py:61:
+      SetuptoolsDeprecationWarning: License classifiers are deprecated.
+      !!
+
+      
+      ********************************************************************************
+              Please consider removing the following classifiers in favor of a
+      SPDX license expression:
+
+              License :: OSI Approved :: Historical Permission Notice and
+      Disclaimer (HPND)
+
+              See
+      https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license
+      for details.
+      
+      ********************************************************************************
+
+      !!
+        dist._finalize_license_expression()
+      /home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/dist.py:765:
+      SetuptoolsDeprecationWarning: License classifiers are deprecated.
+      !!
+
+      
+      ********************************************************************************
+              Please consider removing the following classifiers in favor of a
+      SPDX license expression:
+
+              License :: OSI Approved :: Historical Permission Notice and
+      Disclaimer (HPND)
+
+              See
+      https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license
+      for details.
+      
+      ********************************************************************************
+
+      !!
+        self._finalize_license_expression()
+      warning: no files found matching '*.c'
+      warning: no files found matching '*.h'
+      warning: no files found matching '*.sh'
+      warning: no files found matching '*.txt'
+      warning: no files found matching '.flake8'
+      warning: no previously-included files found matching '.appveyor.yml'
+      warning: no previously-included files found matching '.clang-format'
+      warning: no previously-included files found matching '.coveragerc'
+      warning: no previously-included files found matching '.editorconfig'
+      warning: no previously-included files found matching '.readthedocs.yml'
+      warning: no previously-included files found matching 'codecov.yml'
+      warning: no previously-included files found matching 'renovate.json'
+      warning: no previously-included files matching '.git*' found anywhere
+      in distribution
+      warning: no previously-included files matching '*.so' found anywhere
+      in distribution
+      no previously-included directories found matching '.ci'
+      no previously-included directories found matching 'wheels'
+
+
+      The headers or library files could not be found for zlib,
+      a required dependency when compiling Pillow from source.
+
+      Please see the install instructions at:
+      
+      https://pillow.readthedocs.io/en/latest/installation/basic-installation.html
+
+      Traceback (most recent call last):
+        File "<string>", line 1012, in <module>
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/__init__.py",
+      line 117, in setup
+          return distutils.core.setup(**attrs)  # type: ignore[return-value]
+                 ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/_distutils/core.py",
+      line 186, in setup
+          return run_commands(dist)
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/_distutils/core.py",
+      line 202, in run_commands
+          dist.run_commands()
+          ~~~~~~~~~~~~~~~~~^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/_distutils/dist.py",
+      line 1000, in run_commands
+          self.run_command(cmd)
+          ~~~~~~~~~~~~~~~~^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/dist.py",
+      line 1107, in run_command
+          super().run_command(command)
+          ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/_distutils/dist.py",
+      line 1019, in run_command
+          cmd_obj.run()
+          ~~~~~~~~~~~^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/command/bdist_wheel.py",
+      line 370, in run
+          self.run_command("build")
+          ~~~~~~~~~~~~~~~~^^^^^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/_distutils/cmd.py",
+      line 341, in run_command
+          self.distribution.run_command(command)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/dist.py",
+      line 1107, in run_command
+          super().run_command(command)
+          ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/_distutils/dist.py",
+      line 1019, in run_command
+          cmd_obj.run()
+          ~~~~~~~~~~~^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/_distutils/command/build.py",
+      line 135, in run
+          self.run_command(cmd_name)
+          ~~~~~~~~~~~~~~~~^^^^^^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/_distutils/cmd.py",
+      line 341, in run_command
+          self.distribution.run_command(command)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/dist.py",
+      line 1107, in run_command
+          super().run_command(command)
+          ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/_distutils/dist.py",
+      line 1019, in run_command
+          cmd_obj.run()
+          ~~~~~~~~~~~^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/command/build_ext.py",
+      line 97, in run
+          _build_ext.run(self)
+          ~~~~~~~~~~~~~~^^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/_distutils/command/build_ext.py",
+      line 367, in run
+          self.build_extensions()
+          ~~~~~~~~~~~~~~~~~~~~~^^
+        File "<string>", line 829, in build_extensions
+      RequiredDependencyException: zlib
+
+      During handling of the above exception, another exception occurred:
+
+      Traceback (most recent call last):
+        File "<string>", line 11, in <module>
+          wheel_filename =
+      backend.build_wheel("/home/adminuser/.cache/uv/builds-v0/.tmpCXPqSh",
+      {}, None)
+        File
+      "/home/adminuser/.cache/uv/sdists-v6/pypi/pillow/10.4.0/IL28_UC43cI3dDTq7HgOF/src/_custom_build/backend.py",
+      line 26, in build_wheel
+          return super().build_wheel(wheel_directory, config_settings,
+      metadata_directory)
+      
+      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/build_meta.py",
+      line 438, in build_wheel
+          return _build(['bdist_wheel'])
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/build_meta.py",
+      line 429, in _build
+          return self._build_with_temp_dir(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~^
+              cmd,
+              ^^^^
+          ...<3 lines>...
+              self._arbitrary_args(config_settings),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          )
+          ^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/build_meta.py",
+      line 410, in _build_with_temp_dir
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File
+      "/home/adminuser/.cache/uv/sdists-v6/pypi/pillow/10.4.0/IL28_UC43cI3dDTq7HgOF/src/_custom_build/backend.py",
+      line 20, in run_setup
+          return super().run_setup(setup_script)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpeVkbeK/lib/python3.14/site-packages/setuptools/build_meta.py",
+      line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 1028, in <module>
+      RequiredDependencyException:
+
+      The headers or library files could not be found for zlib,
+      a required dependency when compiling Pillow from source.
+
+      Please see the install instructions at:
+      
+      https://pillow.readthedocs.io/en/latest/installation/basic-installation.html
+
+
+
+  help: `pillow` was included because `matplotlib==3.10.8` depends on
+        `pillow`
+Checking if Streamlit is installed
+Traceback (most recent call last):
+  File "/home/adminuser/venv/bin/streamlit", line 5, in <module>
+    from streamlit.web.cli import main
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/__init__.py", line 55, in <module>
+    from streamlit.delta_generator import DeltaGenerator as _DeltaGenerator
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/delta_generator.py", line 43, in <module>
+    from streamlit.elements.arrow_altair import ArrowAltairMixin
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/elements/arrow_altair.py", line 36, in <module>
+    from altair.vegalite.v4.api import Chart
+ModuleNotFoundError: No module named 'altair.vegalite.v4'
+WARNING: Package(s) not found: streamlit-nightly
+Couldn't find Streamlit version.
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.14.3 environment at /home/adminuser/venv
+Audited 1 package in 2ms
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Using standard pip install.
+Collecting pandas (from -r /mount/src/edumind-assistant/requirements.txt (line 1))
+  Downloading pandas-3.0.1-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (79 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.5/79.5 kB 5.2 MB/s eta 0:00:00[2026-03-20 04:37:26.734916] 
+Collecting numpy (from -r /mount/src/edumind-assistant/requirements.txt (line 2))
+  Downloading numpy-2.4.3-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+Collecting scikit-learn (from -r /mount/src/edumind-assistant/requirements.txt (line 3))
+  Downloading scikit_learn-1.8.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (11 kB)
+Collecting openpyxl (from -r /mount/src/edumind-assistant/requirements.txt (line 4))
+  Downloading openpyxl-3.1.5-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting seaborn (from -r /mount/src/edumind-assistant/requirements.txt (line 5))
+  Downloading seaborn-0.13.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting matplotlib (from -r /mount/src/edumind-assistant/requirements.txt (line 6))
+  Downloading matplotlib-3.10.8-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (52 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 52.8/52.8 kB 140.1 MB/s eta 0:00:00[2026-03-20 04:37:27.405244] 
+Collecting streamlit==1.28.0 (from -r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading streamlit-1.28.0-py2.py3-none-any.whl.metadata (8.1 kB)
+Collecting joblib (from -r /mount/src/edumind-assistant/requirements.txt (line 8))
+  Downloading joblib-1.5.3-py3-none-any.whl.metadata (5.5 kB)
+Collecting altair==4.2.0 (from -r /mount/src/edumind-assistant/requirements.txt (line 9))
+  Downloading altair-4.2.0-py3-none-any.whl.metadata (13 kB)
+Collecting blinker<2,>=1.0.0 (from streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting cachetools<6,>=4.0 (from streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading cachetools-5.5.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting click<9,>=7.0 (from streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading click-8.3.1-py3-none-any.whl.metadata (2.6 kB)
+Collecting importlib-metadata<7,>=1.4 (from streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading importlib_metadata-6.11.0-py3-none-any.whl.metadata (4.9 kB)
+Collecting numpy (from -r /mount/src/edumind-assistant/requirements.txt (line 2))
+  Downloading numpy-1.26.4.tar.gz (15.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.8/15.8 MB 233.6 MB/s eta 0:00:00[2026-03-20 04:37:27.947432] 
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): still running...
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting packaging<24,>=16.8 (from streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading packaging-23.2-py3-none-any.whl.metadata (3.2 kB)
+Collecting pandas (from -r /mount/src/edumind-assistant/requirements.txt (line 1))
+  Downloading pandas-2.3.3-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (91 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 91.2/91.2 kB 366.4 MB/s eta 0:00:00[2026-03-20 04:39:19.212698] 
+Collecting pillow<11,>=7.1.0 (from streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading pillow-10.4.0.tar.gz (46.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.6/46.6 MB 147.1 MB/s eta 0:00:00[2026-03-20 04:39:19.792539] 
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting protobuf<5,>=3.20 (from streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading protobuf-4.25.8-cp37-abi3-manylinux2014_x86_64.whl.metadata (541 bytes)
+Collecting pyarrow>=6.0 (from streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading pyarrow-23.0.1-cp314-cp314-manylinux_2_28_x86_64.whl.metadata (3.1 kB)
+Collecting python-dateutil<3,>=2.7.3 (from streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting requests<3,>=2.27 (from streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading requests-2.32.5-py3-none-any.whl.metadata (4.9 kB)
+Collecting rich<14,>=10.14.0 (from streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading rich-13.9.4-py3-none-any.whl.metadata (18 kB)
+Collecting tenacity<9,>=8.1.0 (from streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading tenacity-8.5.0-py3-none-any.whl.metadata (1.2 kB)
+Collecting toml<2,>=0.10.1 (from streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading toml-0.10.2-py2.py3-none-any.whl.metadata (7.1 kB)
+Collecting typing-extensions<5,>=4.3.0 (from streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting tzlocal<6,>=1.1 (from streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading tzlocal-5.3.1-py3-none-any.whl.metadata (7.6 kB)
+Collecting validators<1,>=0.2 (from streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading validators-0.35.0-py3-none-any.whl.metadata (3.9 kB)
+Collecting gitpython!=3.1.19,<4,>=3.0.7 (from streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading gitpython-3.1.46-py3-none-any.whl.metadata (13 kB)
+Collecting pydeck<1,>=0.8.0b4 (from streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading pydeck-0.9.1-py2.py3-none-any.whl.metadata (4.1 kB)
+Collecting tornado<7,>=6.0.3 (from streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading tornado-6.5.5-cp39-abi3-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (2.8 kB)
+Collecting watchdog>=2.1.5 (from streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl.metadata (44 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.3/44.3 kB 276.8 MB/s eta 0:00:00[2026-03-20 04:39:25.702568] 
+Collecting entrypoints (from altair==4.2.0->-r /mount/src/edumind-assistant/requirements.txt (line 9))
+  Downloading entrypoints-0.4-py3-none-any.whl.metadata (2.6 kB)
+Collecting jinja2 (from altair==4.2.0->-r /mount/src/edumind-assistant/requirements.txt (line 9))
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting jsonschema>=3.0 (from altair==4.2.0->-r /mount/src/edumind-assistant/requirements.txt (line 9))
+  Downloading jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+Collecting toolz (from altair==4.2.0->-r /mount/src/edumind-assistant/requirements.txt (line 9))
+  Downloading toolz-1.1.0-py3-none-any.whl.metadata (5.1 kB)
+Collecting pytz>=2020.1 (from pandas->-r /mount/src/edumind-assistant/requirements.txt (line 1))
+  Downloading pytz-2026.1.post1-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas->-r /mount/src/edumind-assistant/requirements.txt (line 1))
+  Downloading tzdata-2025.3-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting scipy>=1.10.0 (from scikit-learn->-r /mount/src/edumind-assistant/requirements.txt (line 3))
+  Downloading scipy-1.17.1-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.1/62.1 kB 319.4 MB/s eta 0:00:00[2026-03-20 04:39:26.295454] 
+Collecting threadpoolctl>=3.2.0 (from scikit-learn->-r /mount/src/edumind-assistant/requirements.txt (line 3))
+  Downloading threadpoolctl-3.6.0-py3-none-any.whl.metadata (13 kB)
+Collecting et-xmlfile (from openpyxl->-r /mount/src/edumind-assistant/requirements.txt (line 4))
+  Downloading et_xmlfile-2.0.0-py3-none-any.whl.metadata (2.7 kB)
+Collecting contourpy>=1.0.1 (from matplotlib->-r /mount/src/edumind-assistant/requirements.txt (line 6))
+  Downloading contourpy-1.3.3-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.5 kB)
+Collecting cycler>=0.10 (from matplotlib->-r /mount/src/edumind-assistant/requirements.txt (line 6))
+  Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.22.0 (from matplotlib->-r /mount/src/edumind-assistant/requirements.txt (line 6))
+  Downloading fonttools-4.62.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (117 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.5/117.5 kB 273.5 MB/s eta 0:00:00[2026-03-20 04:39:26.837462] 
+Collecting kiwisolver>=1.3.1 (from matplotlib->-r /mount/src/edumind-assistant/requirements.txt (line 6))
+  Downloading kiwisolver-1.5.0-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.1 kB)
+Collecting pyparsing>=3 (from matplotlib->-r /mount/src/edumind-assistant/requirements.txt (line 6))
+  Downloading pyparsing-3.3.2-py3-none-any.whl.metadata (5.8 kB)
+Collecting gitdb<5,>=4.0.1 (from gitpython!=3.1.19,<4,>=3.0.7->streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading gitdb-4.0.12-py3-none-any.whl.metadata (1.2 kB)
+Collecting zipp>=0.5 (from importlib-metadata<7,>=1.4->streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading zipp-3.23.0-py3-none-any.whl.metadata (3.6 kB)
+Collecting attrs>=22.2.0 (from jsonschema>=3.0->altair==4.2.0->-r /mount/src/edumind-assistant/requirements.txt (line 9))
+  Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=3.0->altair==4.2.0->-r /mount/src/edumind-assistant/requirements.txt (line 9))
+  Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=3.0->altair==4.2.0->-r /mount/src/edumind-assistant/requirements.txt (line 9))
+  Downloading referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.25.0 (from jsonschema>=3.0->altair==4.2.0->-r /mount/src/edumind-assistant/requirements.txt (line 9))
+  Downloading rpds_py-0.30.0-cp314-cp314-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+Collecting MarkupSafe>=2.0 (from jinja2->altair==4.2.0->-r /mount/src/edumind-assistant/requirements.txt (line 9))
+  Downloading markupsafe-3.0.3-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+Collecting six>=1.5 (from python-dateutil<3,>=2.7.3->streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting charset_normalizer<4,>=2 (from requests<3,>=2.27->streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading charset_normalizer-3.4.6-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (40 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.6/40.6 kB 288.6 MB/s eta 0:00:00[2026-03-20 04:39:28.341249] 
+Collecting idna<4,>=2.5 (from requests<3,>=2.27->streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading idna-3.11-py3-none-any.whl.metadata (8.4 kB)
+Collecting urllib3<3,>=1.21.1 (from requests<3,>=2.27->streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading urllib3-2.6.3-py3-none-any.whl.metadata (6.9 kB)
+Collecting certifi>=2017.4.17 (from requests<3,>=2.27->streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading certifi-2026.2.25-py3-none-any.whl.metadata (2.5 kB)
+Collecting markdown-it-py>=2.2.0 (from rich<14,>=10.14.0->streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading markdown_it_py-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich<14,>=10.14.0->streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3.0.7->streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading smmap-5.0.3-py3-none-any.whl.metadata (4.6 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich<14,>=10.14.0->streamlit==1.28.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading streamlit-1.28.0-py2.py3-none-any.whl (8.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.4/8.4 MB 102.5 MB/s eta 0:00:00[2026-03-20 04:39:29.081025] 
+Downloading altair-4.2.0-py3-none-any.whl (812 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 812.8/812.8 kB 200.5 MB/s eta 0:00:00[2026-03-20 04:39:29.099359] 
+Downloading pandas-2.3.3-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 170.6 MB/s eta 0:00:00[2026-03-20 04:39:29.191929] 
+Downloading scikit_learn-1.8.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (8.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.9/8.9 MB 171.8 MB/s eta 0:00:00[2026-03-20 04:39:29.256175] 
+Downloading openpyxl-3.1.5-py2.py3-none-any.whl (250 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 250.9/250.9 kB 346.1 MB/s eta 0:00:00[2026-03-20 04:39:29.268651] 
+Downloading seaborn-0.13.2-py3-none-any.whl (294 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 294.9/294.9 kB 273.1 MB/s eta 0:00:00[2026-03-20 04:39:29.283831] 
+Downloading matplotlib-3.10.8-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (9.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.8/9.8 MB 163.5 MB/s eta 0:00:00[2026-03-20 04:39:29.355313] 
+Downloading joblib-1.5.3-py3-none-any.whl (309 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 309.1/309.1 kB 268.4 MB/s eta 0:00:00[2026-03-20 04:39:29.368435] 
+Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Downloading cachetools-5.5.2-py3-none-any.whl (10 kB)
+Downloading click-8.3.1-py3-none-any.whl (108 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 108.3/108.3 kB 409.6 MB/s eta 0:00:00[2026-03-20 04:39:29.399513] 
+Downloading contourpy-1.3.3-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (363 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 363.8/363.8 kB 263.0 MB/s eta 0:00:00[2026-03-20 04:39:29.413084] 
+Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading fonttools-4.62.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.9/4.9 MB 170.8 MB/s eta 0:00:00[2026-03-20 04:39:29.466376] 
+Downloading gitpython-3.1.46-py3-none-any.whl (208 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 208.6/208.6 kB 174.9 MB/s eta 0:00:00[2026-03-20 04:39:29.481101] 
+Downloading importlib_metadata-6.11.0-py3-none-any.whl (23 kB)
+Downloading jsonschema-4.26.0-py3-none-any.whl (90 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 90.6/90.6 kB 268.6 MB/s eta 0:00:00[2026-03-20 04:39:29.502430] 
+Downloading kiwisolver-1.5.0-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 176.7 MB/s eta 0:00:00[2026-03-20 04:39:29.523353] 
+Downloading packaging-23.2-py3-none-any.whl (53 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.0/53.0 kB 211.4 MB/s eta 0:00:00[2026-03-20 04:39:29.536669] 
+Downloading protobuf-4.25.8-cp37-abi3-manylinux2014_x86_64.whl (294 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 294.9/294.9 kB 264.4 MB/s eta 0:00:00[2026-03-20 04:39:29.550249] 
+Downloading pyarrow-23.0.1-cp314-cp314-manylinux_2_28_x86_64.whl (47.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.6/47.6 MB 148.3 MB/s eta 0:00:00[2026-03-20 04:39:29.841759] 
+Downloading pydeck-0.9.1-py2.py3-none-any.whl (6.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 184.1 MB/s eta 0:00:00[2026-03-20 04:39:29.892661] 
+Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.9/134.9 kB 152.9 MB/s eta 0:00:00[2026-03-20 04:39:29.905742] 
+Downloading pyparsing-3.3.2-py3-none-any.whl (122 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 122.8/122.8 kB 310.9 MB/s eta 0:00:00[2026-03-20 04:39:29.918277] 
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 kB 172.7 MB/s eta 0:00:00[2026-03-20 04:39:29.931965] 
+Downloading pytz-2026.1.post1-py2.py3-none-any.whl (510 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 510.5/510.5 kB 186.6 MB/s eta 0:00:00[2026-03-20 04:39:29.947104] 
+Downloading requests-2.32.5-py3-none-any.whl (64 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.7/64.7 kB 208.3 MB/s eta 0:00:00[2026-03-20 04:39:29.960236] 
+Downloading rich-13.9.4-py3-none-any.whl (242 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 242.4/242.4 kB 190.4 MB/s eta 0:00:00[2026-03-20 04:39:29.974847] 
+Downloading scipy-1.17.1-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (35.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.2/35.2 MB 41.6 MB/s eta 0:00:00
+Downloading tenacity-8.5.0-py3-none-any.whl (28 kB)
+Downloading threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Downloading tornado-6.5.5-cp39-abi3-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (447 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 447.2/447.2 kB 189.4 MB/s eta 0:00:00[2026-03-20 04:39:30.456816] 
+Downloading typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.6/44.6 kB 192.2 MB/s eta 0:00:00[2026-03-20 04:39:30.469643] 
+Downloading tzdata-2025.3-py2.py3-none-any.whl (348 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 348.5/348.5 kB 200.9 MB/s eta 0:00:00[2026-03-20 04:39:30.483812] 
+Downloading tzlocal-5.3.1-py3-none-any.whl (18 kB)
+Downloading validators-0.35.0-py3-none-any.whl (44 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.7/44.7 kB 188.4 MB/s eta 0:00:00[2026-03-20 04:39:30.506690] 
+Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl (79 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.1/79.1 kB 223.5 MB/s eta 0:00:00[2026-03-20 04:39:30.520218] 
+Downloading entrypoints-0.4-py3-none-any.whl (5.3 kB)
+Downloading et_xmlfile-2.0.0-py3-none-any.whl (18 kB)
+Downloading toolz-1.1.0-py3-none-any.whl (58 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.1/58.1 kB 194.6 MB/s eta 0:00:00[2026-03-20 04:39:30.553332] 
+Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.5/67.5 kB 231.0 MB/s eta 0:00:00[2026-03-20 04:39:30.566045] 
+Downloading certifi-2026.2.25-py3-none-any.whl (153 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 153.7/153.7 kB 170.5 MB/s eta 0:00:00[2026-03-20 04:39:30.581184] 
+Downloading charset_normalizer-3.4.6-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (206 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 206.8/206.8 kB 210.1 MB/s eta 0:00:00[2026-03-20 04:39:30.595297] 
+Downloading gitdb-4.0.12-py3-none-any.whl (62 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.8/62.8 kB 178.9 MB/s eta 0:00:00[2026-03-20 04:39:30.608145] 
+Downloading idna-3.11-py3-none-any.whl (71 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 71.0/71.0 kB 205.8 MB/s eta 0:00:00[2026-03-20 04:39:30.621253] 
+Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.3/87.3 kB 255.5 MB/s eta 0:00:00[2026-03-20 04:39:30.644080] 
+Downloading markupsafe-3.0.3-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (23 kB)
+Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 182.5 MB/s eta 0:00:00[2026-03-20 04:39:30.674659] 
+Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
+Downloading rpds_py-0.30.0-cp314-cp314-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (382 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 382.1/382.1 kB 180.7 MB/s eta 0:00:00[2026-03-20 04:39:30.697866] 
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading urllib3-2.6.3-py3-none-any.whl (131 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 131.6/131.6 kB 153.3 MB/s eta 0:00:00[2026-03-20 04:39:30.721787] 
+Downloading zipp-3.23.0-py3-none-any.whl (10 kB)
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Downloading smmap-5.0.3-py3-none-any.whl (24 kB)
+Building wheels for collected packages: numpy, pillow
+  Building wheel for numpy (pyproject.toml): started
+  Building wheel for numpy (pyproject.toml): finished with status 'done'
+  Created wheel for numpy: filename=numpy-1.26.4-cp314-cp314-linux_x86_64.whl size=9092103 sha256=48f52edc4c28fffc52e121b695d54b41fe5ea4b344d297e63633e8a623e49e7d
+  Stored in directory: /tmp/pip-ephem-wheel-cache-qkwib49l/wheels/9f/41/2d/41d9edbbdf1331835527392f3da54c7de611dc6ba3ef296215
+  Building wheel for pillow (pyproject.toml): started
+  Building wheel for pillow (pyproject.toml): finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Building wheel for pillow (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [281 lines of output]
+      /tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/config/_apply_pyprojecttoml.py:82: SetuptoolsDeprecationWarning: `project.license` as a TOML table is deprecated
+      !!
+      
+              ********************************************************************************
+              Please use a simple string containing a SPDX expression for `project.license`. You can also use `project.license-files`. (Both options available on setuptools>=77.0.0).
+      
+              By 2027-Feb-18, you need to update your project and remove deprecated calls
+              or your builds will no longer be supported.
+      
+              See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+              ********************************************************************************
+      
+      !!
+        corresp(dist, value, root_dir)
+      /tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/config/_apply_pyprojecttoml.py:61: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+      !!
+      
+              ********************************************************************************
+              Please consider removing the following classifiers in favor of a SPDX license expression:
+      
+              License :: OSI Approved :: Historical Permission Notice and Disclaimer (HPND)
+      
+              See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+              ********************************************************************************
+      
+      !!
+        dist._finalize_license_expression()
+      /tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+      !!
+      
+              ********************************************************************************
+              Please consider removing the following classifiers in favor of a SPDX license expression:
+      
+              License :: OSI Approved :: Historical Permission Notice and Disclaimer (HPND)
+      
+              See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+              ********************************************************************************
+      
+      !!
+        self._finalize_license_expression()
+      running bdist_wheel
+      running build
+      running build_py
+      creating build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/IptcImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/MicImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageCms.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/BufrStubImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/_util.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/McIdasImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PixarImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PdfParser.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/_binary.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageDraw2.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/IcoImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/report.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/FontFile.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImtImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/XpmImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageTransform.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageFilter.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageMode.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageMath.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/DdsImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/__main__.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PdfImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/_deprecate.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/SpiderImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageQt.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageEnhance.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/IcnsImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageFont.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/FliImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/EpsImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/FtexImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/Jpeg2KImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/XVThumbImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/XbmImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageFile.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/features.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImagePath.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/SgiImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/DcxImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/WmfImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/_tkinter_finder.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/Hdf5StubImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/BdfFontFile.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImagePalette.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PpmImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageStat.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PSDraw.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PngImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/JpegImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/QoiImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageColor.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/BmpImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PsdImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PcdImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/MpegImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PalmImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/GifImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PcxImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/WebPImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/FitsImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageDraw.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/TiffImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/SunImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/MpoImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/GdImageFile.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageOps.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageTk.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/MspImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/BlpImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PyAccess.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageSequence.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PaletteFile.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/_typing.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageGrab.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/GimpGradientFile.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageShow.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/FpxImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageMorph.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/TgaImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageWin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/GbrImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/_version.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/GribStubImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/GimpPaletteFile.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/PcfFontFile.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ImageChops.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/TarIO.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/__init__.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/Image.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/CurImagePlugin.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/TiffTags.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ContainerIO.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/JpegPresets.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/WalImageFile.py -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/ExifTags.py -> build/lib.linux-x86_64-cpython-314/PIL
+      running egg_info
+      writing src/pillow.egg-info/PKG-INFO
+      writing dependency_links to src/pillow.egg-info/dependency_links.txt
+      writing requirements to src/pillow.egg-info/requires.txt
+      writing top-level names to src/pillow.egg-info/top_level.txt
+      reading manifest file 'src/pillow.egg-info/SOURCES.txt'
+      reading manifest template 'MANIFEST.in'
+      warning: no files found matching '*.c'
+      warning: no files found matching '*.h'
+      warning: no files found matching '*.sh'
+      warning: no files found matching '*.txt'
+      warning: no files found matching '.flake8'
+      warning: no previously-included files found matching '.appveyor.yml'
+      warning: no previously-included files found matching '.clang-format'
+      warning: no previously-included files found matching '.coveragerc'
+      warning: no previously-included files found matching '.editorconfig'
+      warning: no previously-included files found matching '.readthedocs.yml'
+      warning: no previously-included files found matching 'codecov.yml'
+      warning: no previously-included files found matching 'renovate.json'
+      warning: no previously-included files matching '.git*' found anywhere in distribution
+      warning: no previously-included files matching '*.so' found anywhere in distribution
+      no previously-included directories found matching '.ci'
+      no previously-included directories found matching 'wheels'
+      adding license file 'LICENSE'
+      writing manifest file 'src/pillow.egg-info/SOURCES.txt'
+      copying src/PIL/_imaging.pyi -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/_imagingcms.pyi -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/_imagingft.pyi -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/_imagingmath.pyi -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/_imagingmorph.pyi -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/_webp.pyi -> build/lib.linux-x86_64-cpython-314/PIL
+      copying src/PIL/py.typed -> build/lib.linux-x86_64-cpython-314/PIL
+      running build_ext
+      
+      
+      The headers or library files could not be found for zlib,
+      a required dependency when compiling Pillow from source.
+      
+      Please see the install instructions at:
+         https://pillow.readthedocs.io/en/latest/installation/basic-installation.html
+      
+      Traceback (most recent call last):
+        File "<string>", line 1012, in <module>
+        File "/tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/__init__.py", line 117, in setup
+          return distutils.core.setup(**attrs)  # type: ignore[return-value]
+                 ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File "/tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/_distutils/core.py", line 186, in setup
+          return run_commands(dist)
+        File "/tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+          dist.run_commands()
+          ~~~~~~~~~~~~~~~~~^^
+        File "/tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1000, in run_commands
+          self.run_command(cmd)
+          ~~~~~~~~~~~~~~~~^^^^^
+        File "/tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/dist.py", line 1107, in run_command
+          super().run_command(command)
+          ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File "/tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1019, in run_command
+          cmd_obj.run()
+          ~~~~~~~~~~~^^
+        File "/tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/command/bdist_wheel.py", line 370, in run
+          self.run_command("build")
+          ~~~~~~~~~~~~~~~~^^^^^^^^^
+        File "/tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/_distutils/cmd.py", line 341, in run_command
+          self.distribution.run_command(command)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File "/tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/dist.py", line 1107, in run_command
+          super().run_command(command)
+          ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File "/tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1019, in run_command
+          cmd_obj.run()
+          ~~~~~~~~~~~^^
+        File "/tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/_distutils/command/build.py", line 135, in run
+          self.run_command(cmd_name)
+          ~~~~~~~~~~~~~~~~^^^^^^^^^^
+        File "/tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/_distutils/cmd.py", line 341, in run_command
+          self.distribution.run_command(command)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File "/tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/dist.py", line 1107, in run_command
+          super().run_command(command)
+          ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+        File "/tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/_distutils/dist.py", line 1019, in run_command
+          cmd_obj.run()
+          ~~~~~~~~~~~^^
+        File "/tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/command/build_ext.py", line 97, in run
+          _build_ext.run(self)
+          ~~~~~~~~~~~~~~^^^^^^
+        File "/tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/_distutils/command/build_ext.py", line 367, in run
+          self.build_extensions()
+          ~~~~~~~~~~~~~~~~~~~~~^^
+        File "<string>", line 829, in build_extensions
+      RequiredDependencyException: zlib
+      
+      During handling of the above exception, another exception occurred:
+      
+      Traceback (most recent call last):
+        File "/home/adminuser/venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 353, in <module>
+          main()
+          ~~~~^^
+        File "/home/adminuser/venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 335, in main
+          json_out['return_val'] = hook(**hook_input['kwargs'])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/home/adminuser/venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 251, in build_wheel
+          return _build_backend().build_wheel(wheel_directory, config_settings,
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                              metadata_directory)
+                                              ^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-install-9i7bjm15/pillow_a12c0b8d777f4ce781df54362411b427/_custom_build/backend.py", line 26, in build_wheel
+          return super().build_wheel(wheel_directory, config_settings, metadata_directory)
+                 ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 441, in build_wheel
+          return _build(['bdist_wheel', '--dist-info-dir', str(metadata_directory)])
+        File "/tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 429, in _build
+          return self._build_with_temp_dir(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~^
+              cmd,
+              ^^^^
+          ...<3 lines>...
+              self._arbitrary_args(config_settings),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          )
+          ^
+        File "/tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 410, in _build_with_temp_dir
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/tmp/pip-install-9i7bjm15/pillow_a12c0b8d777f4ce781df54362411b427/_custom_build/backend.py", line 20, in run_setup
+          return super().run_setup(setup_script)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-h0oa3irw/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 1028, in <module>
+      RequiredDependencyException:
+      
+      The headers or library files could not be found for zlib,
+      a required dependency when compiling Pillow from source.
+      
+      Please see the install instructions at:
+         https://pillow.readthedocs.io/en/latest/installation/basic-installation.html
+      
+      
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for pillow
+Successfully built numpy
+Failed to build pillow
+ERROR: Could not build wheels for pillow, which is required to install pyproject.toml-based projects
+
+[notice] A new release of pip is available: 24.0 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+Checking if Streamlit is installed
+Traceback (most recent call last):
+  File "/home/adminuser/venv/bin/streamlit", line 5, in <module>
+    from streamlit.web.cli import main
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/__init__.py", line 55, in <module>
+    from streamlit.delta_generator import DeltaGenerator as _DeltaGenerator
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/delta_generator.py", line 43, in <module>
+    from streamlit.elements.arrow_altair import ArrowAltairMixin
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/elements/arrow_altair.py", line 36, in <module>
+    from altair.vegalite.v4.api import Chart
+ModuleNotFoundError: No module named 'altair.vegalite.v4'
+WARNING: Package(s) not found: streamlit-nightly
+Couldn't find Streamlit version.
+Installing rich for an improved exception logging
+Using standard pip install.
+Collecting rich>=10.14.0
+  Downloading rich-14.3.3-py3-none-any.whl.metadata (18 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+  Downloading markdown_it_py-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading rich-14.3.3-py3-none-any.whl (310 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 310.5/310.5 kB 13.7 MB/s eta 0:00:00[2026-03-20 04:39:38.028789] 
+Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.3/87.3 kB 260.9 MB/s eta 0:00:00[2026-03-20 04:39:38.043095] 
+Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 77.9 MB/s eta 0:00:00[2026-03-20 04:39:38.073943] 
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.19.2
+    Uninstalling Pygments-2.19.2:
+      Successfully uninstalled Pygments-2.19.2
+  Attempting uninstall: mdurl
+    Found existing installation: mdurl 0.1.2
+    Uninstalling mdurl-0.1.2:
+      Successfully uninstalled mdurl-0.1.2
+  Attempting uninstall: markdown-it-py
+    Found existing installation: markdown-it-py 4.0.0
+    Uninstalling markdown-it-py-4.0.0:
+      Successfully uninstalled markdown-it-py-4.0.0
+  Attempting uninstall: rich
+    Found existing installation: rich 14.3.3
+    Uninstalling rich-14.3.3:
+      Successfully uninstalled rich-14.3.3
+Successfully installed markdown-it-py-4.0.0 mdurl-0.1.2 pygments-2.19.2 rich-14.3.3
+
+[notice] A new release of pip is available: 24.0 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[04:39:41] ❗️ installer returned a non-zero exit code
+[04:40:10] 🐙 Pulling code changes from Github...
+[04:40:10] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.14.3 environment at /home/adminuser/venv
+Resolved 59 packages in 211ms
+  × Failed to download and build `pillow==9.5.0`
+  ╰─▶ Build backend failed to determine requirements with `build_wheel()`
+      (exit status: 1)
+
+      [stderr]
+      Traceback (most recent call last):
+        File "<string>", line 14, in <module>
+          requires = get_requires_for_build({})
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpbP1g2i/lib/python3.14/site-packages/setuptools/build_meta.py",
+      line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpbP1g2i/lib/python3.14/site-packages/setuptools/build_meta.py",
+      line 301, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpbP1g2i/lib/python3.14/site-packages/setuptools/build_meta.py",
+      line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpbP1g2i/lib/python3.14/site-packages/setuptools/build_meta.py",
+      line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 29, in <module>
+        File "<string>", line 26, in get_version
+      KeyError: '__version__'
+
+Checking if Streamlit is installed
+Traceback (most recent call last):
+  File "/home/adminuser/venv/bin/streamlit", line 5, in <module>
+    from streamlit.web.cli import main
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/__init__.py", line 55, in <module>
+    from streamlit.delta_generator import DeltaGenerator as _DeltaGenerator
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/delta_generator.py", line 43, in <module>
+    from streamlit.elements.arrow_altair import ArrowAltairMixin
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/elements/arrow_altair.py", line 36, in <module>
+    from altair.vegalite.v4.api import Chart
+ModuleNotFoundError: No module named 'altair.vegalite.v4'
+WARNING: Package(s) not found: streamlit-nightly
+Couldn't find Streamlit version.
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.14.3 environment at /home/adminuser/venv
+Audited 1 package in 2ms
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Using standard pip install.
+Collecting pandas (from -r /mount/src/edumind-assistant/requirements.txt (line 1))
+  Downloading pandas-3.0.1-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (79 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.5/79.5 kB 4.6 MB/s eta 0:00:00[2026-03-20 04:40:17.903484] 
+Collecting numpy (from -r /mount/src/edumind-assistant/requirements.txt (line 2))
+  Downloading numpy-2.4.3-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+Collecting scikit-learn (from -r /mount/src/edumind-assistant/requirements.txt (line 3))
+  Downloading scikit_learn-1.8.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (11 kB)
+Collecting openpyxl (from -r /mount/src/edumind-assistant/requirements.txt (line 4))
+  Downloading openpyxl-3.1.5-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting seaborn (from -r /mount/src/edumind-assistant/requirements.txt (line 5))
+  Downloading seaborn-0.13.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting matplotlib (from -r /mount/src/edumind-assistant/requirements.txt (line 6))
+  Downloading matplotlib-3.10.8-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (52 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 52.8/52.8 kB 24.5 MB/s eta 0:00:00[2026-03-20 04:40:18.773053] 
+Collecting streamlit==1.28.0 (from -r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading streamlit-1.28.0-py2.py3-none-any.whl.metadata (8.1 kB)
+Collecting joblib (from -r /mount/src/edumind-assistant/requirements.txt (line 8))
+  Downloading joblib-1.5.3-py3-none-any.whl.metadata (5.5 kB)
+Collecting altair==4.2.0 (from -r /mount/src/edumind-assistant/requirements.txt (line 9))
+  Downloading altair-4.2.0-py3-none-any.whl.metadata (13 kB)
+Collecting pillow==9.5.0 (from -r /mount/src/edumind-assistant/requirements.txt (line 10))
+  Downloading Pillow-9.5.0.tar.gz (50.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.5/50.5 MB 138.8 MB/s eta 0:00:00[2026-03-20 04:40:19.658150] 
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [24 lines of output]
+      Traceback (most recent call last):
+        File "/home/adminuser/venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 353, in <module>
+          main()
+          ~~~~^^
+        File "/home/adminuser/venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 335, in main
+          json_out['return_val'] = hook(**hook_input['kwargs'])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/home/adminuser/venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 118, in get_requires_for_build_wheel
+          return hook(config_settings)
+        File "/tmp/pip-build-env-kidpj_p5/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-kidpj_p5/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/tmp/pip-build-env-kidpj_p5/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-kidpj_p5/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 29, in <module>
+        File "<string>", line 26, in get_version
+      KeyError: '__version__'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: subprocess-exited-with-error
+
+× Getting requirements to build wheel did not run successfully.
+│ exit code: 1
+╰─> See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 24.0 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+Checking if Streamlit is installed
+Traceback (most recent call last):
+  File "/home/adminuser/venv/bin/streamlit", line 5, in <module>
+    from streamlit.web.cli import main
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/__init__.py", line 55, in <module>
+    from streamlit.delta_generator import DeltaGenerator as _DeltaGenerator
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/delta_generator.py", line 43, in <module>
+    from streamlit.elements.arrow_altair import ArrowAltairMixin
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/elements/arrow_altair.py", line 36, in <module>
+    from altair.vegalite.v4.api import Chart
+ModuleNotFoundError: No module named 'altair.vegalite.v4'
+WARNING: Package(s) not found: streamlit-nightly
+Couldn't find Streamlit version.
+Installing rich for an improved exception logging
+Using standard pip install.
+Collecting rich>=10.14.0
+  Downloading rich-14.3.3-py3-none-any.whl.metadata (18 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+  Downloading markdown_it_py-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading rich-14.3.3-py3-none-any.whl (310 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 310.5/310.5 kB 14.6 MB/s eta 0:00:00[2026-03-20 04:40:28.440526] 
+Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.3/87.3 kB 417.6 MB/s eta 0:00:00[2026-03-20 04:40:28.453144] 
+Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 90.7 MB/s eta 0:00:00[2026-03-20 04:40:28.479330] 
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.19.2
+    Uninstalling Pygments-2.19.2:
+      Successfully uninstalled Pygments-2.19.2
+  Attempting uninstall: mdurl
+    Found existing installation: mdurl 0.1.2
+    Uninstalling mdurl-0.1.2:
+      Successfully uninstalled mdurl-0.1.2
+  Attempting uninstall: markdown-it-py
+    Found existing installation: markdown-it-py 4.0.0
+    Uninstalling markdown-it-py-4.0.0:
+      Successfully uninstalled markdown-it-py-4.0.0
+  Attempting uninstall: rich
+    Found existing installation: rich 14.3.3
+    Uninstalling rich-14.3.3:
+      Successfully uninstalled rich-14.3.3
+Successfully installed markdown-it-py-4.0.0 mdurl-0.1.2 pygments-2.19.2 rich-14.3.3
+
+[notice] A new release of pip is available: 24.0 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[04:40:31] ❗️ installer returned a non-zero exit code
+[04:41:34] 🐙 Pulling code changes from Github...
+[04:41:34] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.14.3 environment at /home/adminuser/venv
+Resolved 58 packages in 228ms
+  × Failed to download and build `pillow==9.5.0`
+  ╰─▶ Build backend failed to determine requirements with `build_wheel()`
+      (exit status: 1)
+
+      [stderr]
+      Traceback (most recent call last):
+        File "<string>", line 14, in <module>
+          requires = get_requires_for_build({})
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpXno5me/lib/python3.14/site-packages/setuptools/build_meta.py",
+      line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpXno5me/lib/python3.14/site-packages/setuptools/build_meta.py",
+      line 301, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpXno5me/lib/python3.14/site-packages/setuptools/build_meta.py",
+      line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpXno5me/lib/python3.14/site-packages/setuptools/build_meta.py",
+      line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 29, in <module>
+        File "<string>", line 26, in get_version
+      KeyError: '__version__'
+
+  help: `pillow` was included because `matplotlib==3.10.8` depends on
+        `pillow`
+Checking if Streamlit is installed
+Traceback (most recent call last):
+  File "/home/adminuser/venv/bin/streamlit", line 5, in <module>
+    from streamlit.web.cli import main
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/__init__.py", line 55, in <module>
+    from streamlit.delta_generator import DeltaGenerator as _DeltaGenerator
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/delta_generator.py", line 43, in <module>
+    from streamlit.elements.arrow_altair import ArrowAltairMixin
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/elements/arrow_altair.py", line 36, in <module>
+    from altair.vegalite.v4.api import Chart
+ModuleNotFoundError: No module named 'altair.vegalite.v4'
+WARNING: Package(s) not found: streamlit-nightly
+Couldn't find Streamlit version.
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.14.3 environment at /home/adminuser/venv
+Audited 1 package in 3ms
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Using standard pip install.
+Collecting pandas (from -r /mount/src/edumind-assistant/requirements.txt (line 1))
+  Downloading pandas-3.0.1-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (79 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.5/79.5 kB 4.5 MB/s eta 0:00:00[2026-03-20 04:41:40.583959] 
+Collecting numpy (from -r /mount/src/edumind-assistant/requirements.txt (line 2))
+  Downloading numpy-2.4.3-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+Collecting scikit-learn (from -r /mount/src/edumind-assistant/requirements.txt (line 3))
+  Downloading scikit_learn-1.8.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (11 kB)
+Collecting openpyxl (from -r /mount/src/edumind-assistant/requirements.txt (line 4))
+  Downloading openpyxl-3.1.5-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting seaborn (from -r /mount/src/edumind-assistant/requirements.txt (line 5))
+  Downloading seaborn-0.13.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting matplotlib (from -r /mount/src/edumind-assistant/requirements.txt (line 6))
+  Downloading matplotlib-3.10.8-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (52 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 52.8/52.8 kB 281.7 MB/s eta 0:00:00[2026-03-20 04:41:41.305790] 
+Collecting streamlit==1.27.0 (from -r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading streamlit-1.27.0-py2.py3-none-any.whl.metadata (8.0 kB)
+Collecting joblib (from -r /mount/src/edumind-assistant/requirements.txt (line 8))
+  Downloading joblib-1.5.3-py3-none-any.whl.metadata (5.5 kB)
+Collecting altair<6,>=4.0 (from streamlit==1.27.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading altair-5.5.0-py3-none-any.whl.metadata (11 kB)
+Collecting blinker<2,>=1.0.0 (from streamlit==1.27.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting cachetools<6,>=4.0 (from streamlit==1.27.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading cachetools-5.5.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting click<9,>=7.0 (from streamlit==1.27.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading click-8.3.1-py3-none-any.whl.metadata (2.6 kB)
+Collecting importlib-metadata<7,>=1.4 (from streamlit==1.27.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading importlib_metadata-6.11.0-py3-none-any.whl.metadata (4.9 kB)
+Collecting numpy (from -r /mount/src/edumind-assistant/requirements.txt (line 2))
+  Downloading numpy-1.26.4.tar.gz (15.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.8/15.8 MB 155.5 MB/s eta 0:00:00[2026-03-20 04:41:41.941086] 
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): still running...
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting packaging<24,>=16.8 (from streamlit==1.27.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading packaging-23.2-py3-none-any.whl.metadata (3.2 kB)
+Collecting pandas (from -r /mount/src/edumind-assistant/requirements.txt (line 1))
+  Downloading pandas-2.3.3-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (91 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 91.2/91.2 kB 260.3 MB/s eta 0:00:00[2026-03-20 04:43:41.710928] 
+Collecting pillow<10,>=7.1.0 (from streamlit==1.27.0->-r /mount/src/edumind-assistant/requirements.txt (line 7))
+  Downloading Pillow-9.5.0.tar.gz (50.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.5/50.5 MB 70.8 MB/s eta 0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [24 lines of output]
+      Traceback (most recent call last):
+        File "/home/adminuser/venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 353, in <module>
+          main()
+          ~~~~^^
+        File "/home/adminuser/venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 335, in main
+          json_out['return_val'] = hook(**hook_input['kwargs'])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/home/adminuser/venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 118, in get_requires_for_build_wheel
+          return hook(config_settings)
+        File "/tmp/pip-build-env-byui5f4m/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-byui5f4m/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/tmp/pip-build-env-byui5f4m/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-byui5f4m/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 29, in <module>
+        File "<string>", line 26, in get_version
+      KeyError: '__version__'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: subprocess-exited-with-error
+
+× Getting requirements to build wheel did not run successfully.
+│ exit code: 1
+╰─> See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 24.0 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+Checking if Streamlit is installed
+Traceback (most recent call last):
+  File "/home/adminuser/venv/bin/streamlit", line 5, in <module>
+    from streamlit.web.cli import main
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/__init__.py", line 55, in <module>
+    from streamlit.delta_generator import DeltaGenerator as _DeltaGenerator
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/delta_generator.py", line 43, in <module>
+    from streamlit.elements.arrow_altair import ArrowAltairMixin
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/elements/arrow_altair.py", line 36, in <module>
+    from altair.vegalite.v4.api import Chart
+ModuleNotFoundError: No module named 'altair.vegalite.v4'
+WARNING: Package(s) not found: streamlit-nightly
+Couldn't find Streamlit version.
+Installing rich for an improved exception logging
+Using standard pip install.
+Collecting rich>=10.14.0
+  Downloading rich-14.3.3-py3-none-any.whl.metadata (18 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+  Downloading markdown_it_py-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading rich-14.3.3-py3-none-any.whl (310 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 310.5/310.5 kB 15.1 MB/s eta 0:00:00[2026-03-20 04:43:53.209144] 
+Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.3/87.3 kB 239.0 MB/s eta 0:00:00[2026-03-20 04:43:53.222155] 
+Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 80.4 MB/s eta 0:00:00[2026-03-20 04:43:53.250809] 
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.19.2
+    Uninstalling Pygments-2.19.2:
+      Successfully uninstalled Pygments-2.19.2
+  Attempting uninstall: mdurl
+    Found existing installation: mdurl 0.1.2
+    Uninstalling mdurl-0.1.2:
+      Successfully uninstalled mdurl-0.1.2
+  Attempting uninstall: markdown-it-py
+    Found existing installation: markdown-it-py 4.0.0
+    Uninstalling markdown-it-py-4.0.0:
+      Successfully uninstalled markdown-it-py-4.0.0
+  Attempting uninstall: rich
+    Found existing installation: rich 14.3.3
+    Uninstalling rich-14.3.3:
+      Successfully uninstalled rich-14.3.3
+Successfully installed markdown-it-py-4.0.0 mdurl-0.1.2 pygments-2.19.2 rich-14.3.3
+
+[notice] A new release of pip is available: 24.0 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[04:43:56] ❗️ installer returned a non-zero exit code
+[04:43:59] 🐙 Pulling code changes from Github...
+[04:44:00] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.14.3 environment at /home/adminuser/venv
+Resolved 57 packages in 356ms
+  × Failed to download and build `pillow==9.5.0`
+  ╰─▶ Build backend failed to determine requirements with `build_wheel()`
+      (exit status: 1)
+
+      [2026-03-20 04:44:01.952429] [stderr]
+      Traceback (most recent call last):
+        File "<string>", line 14, in <module>
+          requires = get_requires_for_build({})
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkYpgBA/lib/python3.14/site-packages/setuptools/build_meta.py",
+      line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkYpgBA/lib/python3.14/site-packages/setuptools/build_meta.py",
+      line 301, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkYpgBA/lib/python3.14/site-packages/setuptools/build_meta.py",
+      line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkYpgBA/lib/python3.14/site-packages/setuptools/build_meta.py",
+      line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 29, in <module>
+        File "<string>", line 26, in get_version
+      KeyError: '__version__'
+
+  help: `pillow` was included because `matplotlib==3.7.1` depends on
+        `pillow`
+Checking if Streamlit is installed
+Traceback (most recent call last):
+  File "/home/adminuser/venv/bin/streamlit", line 5, in <module>
+    from streamlit.web.cli import main
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/__init__.py", line 55, in <module>
+    from streamlit.delta_generator import DeltaGenerator as _DeltaGenerator
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/delta_generator.py", line 43, in <module>
+    from streamlit.elements.arrow_altair import ArrowAltairMixin
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/elements/arrow_altair.py", line 36, in <module>
+    from altair.vegalite.v4.api import Chart
+ModuleNotFoundError: No module named 'altair.vegalite.v4'
+WARNING: Package(s) not found: streamlit-nightly
+Couldn't find Streamlit version.
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.14.3 environment at /home/adminuser/venv
+Audited 1 package in 2ms
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Using standard pip install.
+Collecting pandas==1.5.3 (from -r /mount/src/edumind-assistant/requirements.txt (line 1))
+  Downloading pandas-1.5.3.tar.gz (5.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.2/5.2 MB 68.0 MB/s eta 0:00:00[2026-03-20 04:44:06.564597] 
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [23 lines of output]
+      Traceback (most recent call last):
+        File "/home/adminuser/venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 353, in <module>
+          main()
+          ~~~~^^
+        File "/home/adminuser/venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 335, in main
+          json_out['return_val'] = hook(**hook_input['kwargs'])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/home/adminuser/venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 118, in get_requires_for_build_wheel
+          return hook(config_settings)
+        File "/tmp/pip-build-env-2434jkjy/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-2434jkjy/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/tmp/pip-build-env-2434jkjy/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-2434jkjy/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 19, in <module>
+      ModuleNotFoundError: No module named 'pkg_resources'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: subprocess-exited-with-error
+
+× Getting requirements to build wheel did not run successfully.
+│ exit code: 1
+╰─> See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 24.0 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+Checking if Streamlit is installed
+Traceback (most recent call last):
+  File "/home/adminuser/venv/bin/streamlit", line 5, in <module>
+    from streamlit.web.cli import main
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/__init__.py", line 55, in <module>
+    from streamlit.delta_generator import DeltaGenerator as _DeltaGenerator
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/delta_generator.py", line 43, in <module>
+    from streamlit.elements.arrow_altair import ArrowAltairMixin
+  File "/home/adminuser/venv/lib/python3.14/site-packages/streamlit/elements/arrow_altair.py", line 36, in <module>
+    from altair.vegalite.v4.api import Chart
+ModuleNotFoundError: No module named 'altair.vegalite.v4'
+WARNING: Package(s) not found: streamlit-nightly
+Couldn't find Streamlit version.
+Installing rich for an improved exception logging
+Using standard pip install.
+Collecting rich>=10.14.0
+  Downloading rich-14.3.3-py3-none-any.whl.metadata (18 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+  Downloading markdown_it_py-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading rich-14.3.3-py3-none-any.whl (310 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 310.5/310.5 kB 15.7 MB/s eta 0:00:00[2026-03-20 04:44:21.016913] 
+Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.3/87.3 kB 247.6 MB/s eta 0:00:00[2026-03-20 04:44:21.031520] 
+Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 94.5 MB/s eta 0:00:00[2026-03-20 04:44:21.057575] 
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.19.2
+    Uninstalling Pygments-2.19.2:
+      Successfully uninstalled Pygments-2.19.2
+  Attempting uninstall: mdurl
+    Found existing installation: mdurl 0.1.2
+    Uninstalling mdurl-0.1.2:
+      Successfully uninstalled mdurl-0.1.2
+  Attempting uninstall: markdown-it-py
+    Found existing installation: markdown-it-py 4.0.0
+    Uninstalling markdown-it-py-4.0.0:
+      Successfully uninstalled markdown-it-py-4.0.0
+  Attempting uninstall: rich
+    Found existing installation: rich 14.3.3
+    Uninstalling rich-14.3.3:
+      Successfully uninstalled rich-14.3.3
+Successfully installed markdown-it-py-4.0.0 mdurl-0.1.2 pygments-2.19.2 rich-14.3.3
+
+[notice] A new release of pip is available: 24.0 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[04:44:24] ❗️ installer returned a non-zero exit code
+[04:46:05] 🖥 Provisioning machine...
+[04:46:11] 🎛 Preparing system...
+[04:46:10] 🚀 Starting up repository: 'edumind-assistant', branch: 'master', main module: 'app.py'
+[04:46:10] 🐙 Cloning repository...
+[04:46:10] 🐙 Cloning into '/mount/src/edumind-assistant'...
+
+[04:46:10] 🐙 Cloned repository!
+[04:46:10] 🐙 Pulling code changes from Github...
+[04:46:11] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.14.3 environment at /home/adminuser/venv
+Resolved 57 packages in 652ms
+[04:46:13] ⛓ Spinning up manager process...
+  × Failed to download and build `numpy==1.24.3`
+  ├─▶ Build backend failed to determine requirements with `build_wheel()`
+  │   (exit status: 1)
+
+  │   [stderr]
+  │   Traceback (most recent call last):
+  │     File "<string>", line 8, in <module>
+  │       from setuptools.build_meta import __legacy__ as backend
+  │     File
+  │   "/home/adminuser/.cache/uv/builds-v0/.tmp87lPej/lib/python3.14/site-packages/setuptools/__init__.py",
+  │   line 10, in <module>
+  │       import distutils.core
+  │   ModuleNotFoundError: No module named 'distutils'
+
+  ╰─▶ distutils was removed from the standard library in Python 3.12. Consider
+      adding a constraint (like `numpy >1.24.3`) to avoid building a version
+      of numpy that depends on distutils.
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.14.3 environment at /home/adminuser/venv
+Resolved [2026-03-20 04:46:17.556932] 4 packages in 67ms
+Prepared [2026-03-20 04:46:17.625582] 1 package[2026-03-20 04:46:17.626016]  [2026-03-20 04:46:17.626486] in 67ms
+Installed 4 packages in 19ms
+ + markdown-it-py==4.0.0
+ + mdurl==0.1.2
+ + pygments==2.19.2
+ + rich==14.3.3
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Using standard pip install.
+Collecting pandas==1.5.3 (from -r /mount/src/edumind-assistant/requirements.txt (line 1))
+  Downloading pandas-1.5.3.tar.gz (5.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.2/5.2 MB 69.9 MB/s eta 0:00:00[2026-03-20 04:46:19.412493] 
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [23 lines of output]
+      Traceback (most recent call last):
+        File "/home/adminuser/venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 353, in <module>
+          main()
+          ~~~~^^
+        File "/home/adminuser/venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 335, in main
+          json_out['return_val'] = hook(**hook_input['kwargs'])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/home/adminuser/venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 118, in get_requires_for_build_wheel
+          return hook(config_settings)
+        File "/tmp/pip-build-env-1li4_e04/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-1li4_e04/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/tmp/pip-build-env-1li4_e04/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-1li4_e04/overlay/lib/python3.14/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 19, in <module>
+      ModuleNotFoundError: No module named 'pkg_resources'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: subprocess-exited-with-error
+
+× Getting requirements to build wheel did not run successfully.
+│ exit code: 1
+╰─> See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 24.0 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using standard pip install.
+Collecting rich>=10.14.0
+  Downloading rich-14.3.3-py3-none-any.whl.metadata (18 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+  Downloading markdown_it_py-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading rich-14.3.3-py3-none-any.whl (310 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 310.5/310.5 kB 13.1 MB/s eta 0:00:00[2026-03-20 04:46:30.954985] 
+Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.3/87.3 kB 375.5 MB/s eta 0:00:00[2026-03-20 04:46:30.970643] 
+Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 81.9 MB/s eta 0:00:00[2026-03-20 04:46:31.000278] 
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.19.2
+    Uninstalling Pygments-2.19.2:
+      Successfully uninstalled Pygments-2.19.2
+  Attempting uninstall: mdurl
+    Found existing installation: mdurl 0.1.2
+    Uninstalling mdurl-0.1.2:
+      Successfully uninstalled mdurl-0.1.2
+  Attempting uninstall: markdown-it-py
+    Found existing installation: markdown-it-py 4.0.0
+    Uninstalling markdown-it-py-4.0.0:
+      Successfully uninstalled markdown-it-py-4.0.0
+  Attempting uninstall: rich
+    Found existing installation: rich 14.3.3
+    Uninstalling rich-14.3.3:
+      Successfully uninstalled rich-14.3.3
+Successfully installed markdown-it-py-4.0.0 mdurl-0.1.2 pygments-2.19.2 rich-14.3.3
+
+[notice] A new release of pip is available: 24.0 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[04:46:33] ❗️ installer returned a non-zero exit code
+[04:46:33] ❗️ Error during processing dependencies! Please fix the error and push an update, or try restarting the app.
