@@ -1,30 +1,11 @@
 {
   "compilerOptions": {
-    // File Layout
-    "outDir": "dist",
-
-    // Environment Settings
-    "module": "commonjs",
     "target": "es2020",
-    "lib": ["es2020"],
-
-    // Other Outputs
-    "sourceMap": true,
-    "declaration": false,
-    "declarationMap": false,
-
-    // Stricter Typechecking Options
-    "strict": true,
-    "skipLibCheck": true,
-
-    // Style Options
+    "module": "commonjs",
+    "outDir": "dist",
     "esModuleInterop": true,
-    "resolveJsonModule": true,
-    "forceConsistentCasingInFileNames": true,
-
-    // Module Resolution
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true
+    "strict": true,
+    "skipLibCheck": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "client"]
